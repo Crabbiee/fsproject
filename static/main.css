@@ -1,0 +1,8 @@
+body {
+    color:white;
+    background-color: black;
+}
+
+a:hover {
+    color: rgb(74, 196, 155) !important;
+}

@@ -2,18 +2,64 @@
 
 {% block content %}
 <div class="flexmain">
+  <h1>THE CAPYBARA</h1>
+</div>
+<div class="flexmain">
+  <div class="maincontent">
+    <h2>General info</h2>
+    <p>The capybaraor greater capybara (Hydrochoerus hydrochaeris) is a giant cavy rodent native to South America. It is the largest living rodent and a member of the genus Hydrochoerus. The only other extant member is the lesser capybara (Hydrochoerus isthmius). Its close relatives include guinea pigs and rock cavies, and it is more distantly related to the agouti, the chinchilla, and the nutria. The capybara inhabits savannas and dense forests and lives near bodies of water. It is a highly social species and can be found in groups as large as 100 individuals, but usually lives in groups of 10-20 individuals. The capybara is hunted for its meat and hide and also for grease from its thick fatty skin. It is not considered a threatened species.</p>
+</div>
+</div>
+<p>
+<p>
+  <div class="flexmain">
     <div class="maincontent">
-        THIS IS CAPYBARA COCONUT DOGGO PAGE
-</div>
-</div>
-<p>
-<p>
-
+      <h2>Lifespan</h2>
+      <p>Even though their average life expectancy is 8-10 years, they mostly survive only up to 4 years in nature due to natural predators such as eagles, pumas, jaguars and anacondas. In some regions, capybaras are hunted by humans for their meat.</p>
+  </div>
+  </div>
+  <p>
+  <p>
+    <div class="flexmain">
+      <div class="maincontent">
+        <h2>Habitat</h2>
+        <p>Capybaras are found in Panama, Colombia, Venezuela, Guyana, Peru, Brazil, Paraguay, Northeast Argentina and Uruguay. They are semi-aquatic and will spend most of their time in dense vegetation around rivers, lakes, ponds, marshes and swamps.</p>
+    </div>
+    </div>
+    <p>
+    <p>
 <div class="flexmain">
 <div class="maincontent">
-    <img src="{{url_for('static', filename = 'img/capy.jpg')}}" class="img-fluid" alt ="Capybara">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{{url_for('static', filename = 'img/capy.jpg')}}" class="d-block w-100" alt="Capybara">
+          </div>
+          <div class="carousel-item">
+            <img src="{{url_for('static', filename = 'img/capy2.jpg')}}" class="d-block w-100" alt="Capybara">
+          </div>
+          <div class="carousel-item">
+            <img src="{{url_for('static', filename = 'img/capy3.jpg')}}" class="d-block w-100" alt="Capybara">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 </div>
 </div>
 <p>
 <p>
+  <div class="flexmain">
+    <div class="maincontent">
+<a href="https://en.wikipedia.org/wiki/Capybara">Wikipedia - Capybara</a>
+  </div>
+  </div>
+  <p>
+  <p>
 {% endblock %}

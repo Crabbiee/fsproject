@@ -2,16 +2,64 @@
 
 {% block content %}
 <div class="flexmain">
+  <h1>THE PIGEON</h1>
+</div>
+<div class="flexmain">
+  <div class="maincontent">
+    <h2>General info</h2>
+    <p>Pigeons have made contributions of considerable importance to humanity, especially in times of war. In war the homing ability of pigeons has been put to use by making them messengers. So-called war pigeons have carried many vital messages and some have been decorated for their services. Medals such as the Croix de Guerre, awarded to Cher Ami, and the Dickin Medal awarded to the pigeons G.I. Joe and Paddy, amongst 32 others, have been awarded to pigeons for their services in saving human lives. Despite this, city pigeons today are seen as pests, mainly due to their droppings. Feral pigeons are considered invasive in many parts of the world.</p>
+</div>
+</div>
+<p>
+<p>
+  <div class="flexmain">
     <div class="maincontent">
-        THIS IS PIGEON PAGE
-</div>
-</div>
-<p>
-<p><div class="flexmain">
+      <h2>Lifespan</h2>
+      <p>On average, pigeons live 3-5 years in the wild. Domesticated pigeons have been known to live up to 15 years. The pigeon's lifespan is dependent on several factors that include natural predators and interference from humans. </p>
+  </div>
+  </div>
+  <p>
+  <p>
+    <div class="flexmain">
+      <div class="maincontent">
+        <h2>Habitat</h2>
+        <p>They inhabit forests such as rainforests, temperate deciduous forests, swamp forests and arboreal forests. Pigeons inhabit desert areas where the get water by eating succulent plants, and they also live on islands, in mangrove forests, in chaparral and in almost every other environment on Earth. They have found incredible success in urban environments all across the world.</p>
+    </div>
+    </div>
+    <p>
+    <p>
+    <div class="flexmain">
     <div class="maincontent">
-        <img src="{{url_for('static', filename = 'img/pigeon.jpg')}}" class="img-fluid" alt ="Pigeon">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{{url_for('static', filename = 'img/pigeon.jpg')}}" class="d-block w-100" alt="Pigeon">
+              </div>
+              <div class="carousel-item">
+                <img src="{{url_for('static', filename = 'img/pigeon2.jpg')}}" class="d-block w-100" alt="Pigeon">
+              </div>
+              <div class="carousel-item">
+                <img src="{{url_for('static', filename = 'img/pigeon3.jpg')}}" class="d-block w-100" alt="Pigeon">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 </div>
 </div>
 <p>
 <p>
+  <div class="flexmain">
+    <div class="maincontent">
+<a href="https://en.wikipedia.org/wiki/Domestic_pigeon">Wikipedia - Pigeon</a>
+  </div>
+  </div>
+  <p>
+  <p>
 {% endblock %}

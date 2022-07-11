@@ -2,19 +2,65 @@
 
 {% block content %}
 <div class="flexmain">
+  <h1>THE PELICAN</h1>
+</div>
+<div class="flexmain">
+  <div class="maincontent">
+    <h2>General info</h2>
+    <p>Pelicans (genus Pelecanus) are a genus of large water birds that make up the family Pelecanidae. They are characterized by a long beak and a large throat pouch used for catching prey and draining water from the scooped-up contents before swallowing. They have predominantly pale plumage, except for the brown and Peruvian pelicans. The bills, pouches, and bare facial skin of all pelicans become brightly coloured before the breeding season.</p>
+</div>
+</div>
+<p>
+<p>
+  <div class="flexmain">
     <div class="maincontent">
-        THIS IS PELICAN PAGE
-</div>
-</div>
-<p>
-<p>
+      <h2>Lifespan</h2>
+      <p>From about 25 days old, the young of these species gather in "pods" or "crèches" of up to 100 birds in which parents recognise and feed only their own offspring. By 6-8 weeks they wander around, occasionally swimming, and may practise communal feeding. Young of all species fledge 10-12 weeks after hatching. They may remain with their parents afterwards, but are now seldom or never fed. They are mature at three or four years old. Overall breeding success is highly variable. Pelicans live for 15 to 25 years in the wild, although one reached an age of 54 years in captivity.</p>
+  </div>
+  </div>
+  <p>
+  <p>
+    <div class="flexmain">
+      <div class="maincontent">
+        <h2>Habitat</h2>
+        <p>Modern pelicans are found on all continents except Antarctica. They primarily inhabit warm regions, although breeding ranges extend to latitudes of 45° South (Australian pelicans in Tasmania) and 60° North (American white pelicans in western Canada). Birds of inland and coastal waters, they are absent from polar regions, the deep ocean, oceanic islands (except the Galapagos), and inland South America, as well as from the eastern coast of South America from the mouth of the Amazon River southwards. Subfossil bones have been recovered from as far south as New Zealand's South Island,[57] although their scarcity and isolated occurrence suggests that these remains may have merely been vagrants from Australia (much as is the case today).</p>
+    </div>
+    </div>
+    <p>
+    <p>
 <div class="flexmain">
     <div class="maincontent">
-        <img src="{{url_for('static', filename = 'img/pelican.jpg')}}" class="img-fluid" alt ="Pelican">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{{url_for('static', filename = 'img/pelican.jpg')}}" class="d-block w-100" alt="Pelican">
+              </div>
+              <div class="carousel-item">
+                <img src="{{url_for('static', filename = 'img/pelican2.jpg')}}" class="d-block w-100" alt="Pelican">
+              </div>
+              <div class="carousel-item">
+                <img src="{{url_for('static', filename = 'img/pelican3.jpg')}}" class="d-block w-100" alt="Pelican">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 </div>
 </div>
 <p>
 <p>
-
+  <div class="flexmain">
+    <div class="maincontent">
+<a href="https://en.wikipedia.org/wiki/Pelican">Wikipedia - Pelican</a>
+  </div>
+  </div>
+  <p>
+  <p>
 
 {% endblock %}

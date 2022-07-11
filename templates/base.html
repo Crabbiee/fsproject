@@ -13,16 +13,20 @@
 <title>Cool animals</title>
 </head>
 
-<body>
+<body onload="$('.carousel').carousel({
+  interval: 70
+})">
+  <a name="top"></a>
   <div class="flexmain">
-  <nav class="navbar navbar-expand-lg bg-light ">
+  <nav class="navbar navbar-expand-lg bg-dark ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="{{url_for('my_view.index')}}">Home</a>
+      <b class="navbar-brand white">Nav</b>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="{{url_for('my_view.index')}}">Home</a>
           <a class="nav-link active" aria-current="page" href="{{url_for('my_view.crab')}}">Crab</a>
           <a class="nav-link active" aria-current="page" href="{{url_for('my_view.capybara')}}">Capybara</a>
           <a class="nav-link active" aria-current="page" href="{{url_for('my_view.pelican')}}">Pelican</a>
@@ -32,9 +36,13 @@
     </div>
   </nav>
 </div>
-<p>
-<p>
 {% block content %}
 {% endblock %}
+<footer><div class="flexmain">
+  <div class="maincontent">
+    <a href="#top">Return to top of page</a>
+</div>
+</div>
+</footer>
 </body>
 </html>

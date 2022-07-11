@@ -1,6 +1,17 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    THIS IS PIGEON PAGE<br>
-    <img src="{{url_for('static', filename = 'img/pigeon.jpg')}}" alt ="Pigeon">
+<div class="flexmain">
+    <div class="maincontent">
+        THIS IS PIGEON PAGE
+</div>
+</div>
+<p>
+<p><div class="flexmain">
+    <div class="maincontent">
+        <img src="{{url_for('static', filename = 'img/pigeon.jpg')}}" class="img-fluid" alt ="Pigeon">
+</div>
+</div>
+<p>
+<p>
 {% endblock %}

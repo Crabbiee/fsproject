@@ -6,3 +6,17 @@ body {
 a:hover {
     color: rgb(74, 196, 155) !important;
 }
+
+.flexmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.maincontent {
+    padding: 8px;
+    width: auto;
+    border-radius: 10px;
+    background-color: rgb(87, 87, 87);
+    text-align: center;
+}
